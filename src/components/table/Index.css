@@ -1,0 +1,38 @@
+.table_head{
+    background-color:black ;
+    color: white;
+}
+table{
+    border: 1px solid gray;
+}
+
+.saved_Reports{
+    display: flex;
+    font-size: 20px;
+}
+
+td{
+    padding: 20px !important;
+    color: rgb(87, 87, 87);
+    font-weight: 400;
+}
+
+th{
+    font-weight: 400;
+    color: rgb(202, 202, 202);
+}
+
+.radio_input{
+    border-radius: 2px;
+}
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+}
+
+.reportPage{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,82 @@
+.Select_section {
+    text-align: left;
+    font-size: 20px;
+}
+
+.Main_heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.latitude_input {
+    display: flex;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.latitude_heading {
+    text-align: left;
+    display: flex;
+}
+
+.city_select {
+    display: flex;
+    padding: 4px;
+    margin-top: 4px;
+    width: 100%;
+}
+
+.Date_Range {
+    display: flex;
+    width: 100%;
+    margin-top: 4px;
+    padding: 1px;
+}
+.latitude_div {
+    margin-top: 15px;
+    position: relative;
+}
+
+.row_select {
+    row-gap: 20px;
+}
+
+.latitude_div {
+    margin-top: 15px;
+}
+
+.save_btn {
+    padding: 8px 29px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+.country_div{
+    cursor: pointer;
+    position: absolute;
+    top: 59px;
+    left: 0px;
+    background-color: white;
+    z-index: 9999;
+    width: 200px;
+    border: 1px solid;
+}
+.flex_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cityIcon {
+    position: relative;
+    margin-top: 4px;
+
+}
